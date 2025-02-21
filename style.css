@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.code-container{
+    width:100vw;
+}
+/* navbar start */
+#navbar{
+background-color:#493628;
+}
+#logo img{
+    width:200px;
+    height:50px;
+    border-radius:20px;
+    margin-left:20px;
+}
+.navbar-nav{
+    margin-left:50px;
+}
+.nav-item .nav-link{
+    color:#E4E0E1;
+    font-weight:bold;
+    margin-left:10px;
+    font-size:18px;
+}
+.nav-item .nav-link:hover{
+    background-color: #E4E0E1;
+    color:#493628;
+    border-radius:10px;
+}
+#btnSearch{
+    background-color:#E4E0E1;
+    border:none;
+    color:#000000;
+
+}
+/* navbar end */
+
+/* Home section start */
+#home{
+    width:100%;
+    height:90vh;
+    background-image: url('./Images/bg1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    /* background-color: aquamarine; */
+    /* background-position: 50%; */
+}
+#home .content{
+    padding-top:12rem;
+    padding-left:2rem;
+}
+#home .content h2{
+    font-size: 3rem;
+    color:#E4E0E1;
+
+}
+#home .content p{
+    margin-top:2rem;
+    color:#E4E0E1;
+}
+#btnShopNow{
+    width:8rem;
+    height:3rem;
+    background-color: #E4E0E1;
+    font-weight:bold;
+    border-radius:5px;
+    margin-top:1rem;
+}
+#btnShopNow:hover{
+    background-color: #AB886D;
+    color:#ffffff;
+}
+/* Home section end */
+
+/* About section start */
+#about{
+    width:100%;
+    height:100vh;
+    padding-top:3rem;
+}
+#heading{
+    font-size:3rem;
+    text-align:center;
+    padding-bottom:1rem;
+}
+#heading span{
+    color:#AB886D;
+}
+.container .about-card img{
+   border-bottom-left-radius: 50px;
+   border-top-right-radius: 50px;
+   /* border:none;
+   outline:none; */
+}
+.container .about-card{
+    border:none;
+}
+#btnLearnMore{
+    width:8rem;
+    height:3rem;
+    background-color:transparent;
+    font-weight:bold;
+    border:1px solid #493628;
+    border-radius:5px;
+    margin-top:1rem;
+}
+#btnLearnMore:hover{
+    background-color: #493628;
+    color:#ffffff;
+}
+
+/* About section end */
+
+/* Top Catagories start */
+#top-catagory{
+    width:100%;
+    height:60vh;
+    background:#E4E0E1;
+}
+#top-catagory .heading2{
+font-size:3rem;
+text-align:center;
+padding-top:1rem;
+padding-bottom:1rem;
+}
+#top-catagory .heading2 span{
+    color:#AB886D;
+}
+#top-catagory .card img{
+    border-radius:10px;
+}
+
+#top-catagory .card{
+    background: transparent;
+    border:none;
+}
+/* Top Catagories end */
+
+/* Menu section start */
+#menu{
+    width:100%;
+}
+#menu .heading3{
+    font-size:3rem;
+    text-align:center;
+    color:#AB886D;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+#menu .star i{
+    padding-top:1rem;
+    color:#AB886D;
+}
+#menu h3{
+    padding-top:1rem;
+}
+/* Menu section end */
+
+/* Product section start */
+#product{
+    width:100%;
+}
+#container .heading4{
+    font-size:3rem;
+    text-align:center;
+    color:#AB886D;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    font-weight:bold;
+    /* border-bottom:2px solid #493628; */
+}
+#product p span{
+    float:right;
+    cursor:pointer;
+}
+/* Product section end */
+
+/* Gallery start */
+#gallery{
+    width:100%;
+}
+#gallery .heading5{
+    text-align:center;
+    font-size:3rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+#gallery .heading5 span{
+    color:#AB886D;
+}
+#gallery .card{
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius:4rem;
+}
+#gallery .card img{
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius:4rem;
+
+}
+/* Gallery end */
+
+/* Contact section start */
+#contact{
+    width:100%;
+    height:100vh;
+    background-color: #493628;
+    color:#E4E0E1;
+    padding-top:10%;
+}
+#contact .heading6{
+    font-size:3rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+#btnSendMessage{
+    width:8rem;
+    height:3rem;
+    font-weight:bold;
+    border-radius:5px;
+    margin-top:1rem;
+    background-color: #AB886D;
+    color:#ffffff;
+    border:none;
+}
+
+#btnSendMessage:hover{
+    background-color: #ffffff;
+    color:#AB886D;
+    border:1px solid #AB886D;
+    
+}
+#contact input{
+    padding:0.5rem;
+    width:30rem;
+    border-radius:0.5rem;
+}
+/* Contact section end */
+
+/* Blog section start */
+
+/* Blog section end */
+
+
+

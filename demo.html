@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Image Animation</title>
+    <style>
+        /* Background Image Container */
+        .background {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: url('background.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Floating Image */
+        .floating-img {
+            position: absolute;
+            width: 150px; /* Adjust size */
+            height: auto;
+            animation: floatUpDown 3s ease-in-out infinite; /* Animation */
+        }
+
+        /* Keyframes for floating effect */
+        @keyframes floatUpDown {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); } /* Move up */
+            100% { transform: translateY(0); } /* Back to original position */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <!-- Floating Image -->
+        <img src="./Images/Logo.jpeg" alt="Floating Image" class="floating-img">
+    </div>
+
+</body>
+</html>
