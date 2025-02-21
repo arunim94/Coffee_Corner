@@ -273,6 +273,28 @@ color:#ffffff;
 }
 /* Contact section end */
 
+/* Footer start */
+#footer{
+    width:100%;
+    height:10vh;
+    padding:1rem;
+}
+#footer .social-media{
+    padding:1rem;
+}
+#footer i{
+    font-size:1.5rem;
+    padding-left:0.5rem;
+}
+/* Footer end */
+
+#upArrow{
+    font-size:3rem;
+    color:#000000;
+    float:right;
+}
+
+
 
 
 
