@@ -276,22 +276,30 @@ color:#ffffff;
 /* Footer start */
 #footer{
     width:100%;
-    height:10vh;
+    height:15vh;
     padding:1rem;
 }
 #footer .social-media{
-    padding:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+#footer .copy-right{
+    padding-bottom:2rem;
 }
 #footer i{
-    font-size:1.5rem;
+    font-size:2rem;
     padding-left:0.5rem;
+    border-radius:1rem;
 }
 /* Footer end */
 
 #upArrow{
+    position:fixed;
+    z-index:1000;
+    bottom:1rem;
+    right:1rem;
     font-size:3rem;
     color:#000000;
-    float:right;
 }
 
 
