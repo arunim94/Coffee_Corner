@@ -34,7 +34,11 @@ background-color:#493628;
     background-color:#E4E0E1;
     border:none;
     color:#000000;
-
+    font-weight:bold;
+}
+#btnSearch:hover{
+    background-color: #AB886D;
+    color:#ffffff;
 }
 /* navbar end */
 
@@ -103,7 +107,7 @@ background-color:#493628;
     height:3rem;
     background-color:transparent;
     font-weight:bold;
-    border:1px solid #493628;
+    border:2px solid #493628;
     border-radius:5px;
     margin-top:1rem;
 }
