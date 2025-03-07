@@ -73,6 +73,9 @@ background-color:#493628;
     font-weight:bold;
     border-radius:5px;
     margin-top:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #btnShopNow:hover{
     background-color: #AB886D;
